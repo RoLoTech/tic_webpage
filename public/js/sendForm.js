@@ -1,6 +1,6 @@
 $("#send-button").on("click", function () {
     submitMeasure();
-    console.log("peum")
+    alert("Sus medidas han sido registradas correctamente");
 })
 
 function submitMeasure() {
@@ -11,7 +11,7 @@ function submitMeasure() {
     amount = $("#amountData").val()
     $.ajax({
         method: "POST",
-        url: "179.27.97.57:3306/register_data",
+        url: "http://179.27.97.57:3306/register_data",
         crossDomain: true,
         dataType: "json",
         data: {
