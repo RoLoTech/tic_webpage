@@ -1,5 +1,6 @@
 $("#send-button").on("click", function () {
     submitMeasure();
+    console.log("peum")
 })
 
 function submitMeasure() {
