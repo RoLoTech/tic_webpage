@@ -1,7 +1,8 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 body {
-	  background:#2d3b36 url(http://andstud.io/wp-content/uploads/2014/03/blurrrr2.jpg)no-repeat center center fixed;
-  	-webkit-background-size: cover;
+    background: rgb(0,70,140);
+background: radial-gradient(circle, rgba(0,70,140,1) 85%, rgba(243,174,0,1) 100%);n
+    -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
